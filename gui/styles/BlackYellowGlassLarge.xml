@@ -1,10 +1,10 @@
 <?xml version="1.0"?>
 
 <PropertyList>
-    <name>Black Blue Glass</name>
+    <name>Black Yellow Glass - Large</name>
     <fonts>
         <gui>
-            <name type="string">Arial-black.txf</name>
+            <name type="string">HELVETICA_14</name>
             <baseline-height type="float">21</baseline-height>
         </gui>
 
@@ -15,11 +15,11 @@
         </splash>
 
         <gui-large>
-            <name>Arial-black.txf</name>
+            <name>HELVETICA_14</name>
         </gui-large>
 
         <fixed>
-            <name>Arial-black.txf</name>
+            <name>FIXED_9x15</name>
         </fixed>
 
         <gui-small>
@@ -27,35 +27,34 @@
         </gui-small>
 
         <mp-list>
-            <name>Arial-black.txf</name>
+            <name>FIXED_9x15</name>
         </mp-list>
 
         <replay>
-            <name>Arial-black.txf</name>
+            <name>SANS_12B</name>
             <size type="float">14</size>
         </replay>
 
         <model-view>
-            <name type="string">Arial-black.txf</name>
+            <name type="string">HELVETICA_14</name>
         </model-view>
 
         <nasal-editor>
-            <name type="string">Arial-black.txf</name>
+            <name type="string">monoMMM_5.txf</name>
             <size>6</size>
         </nasal-editor>
 
         <message-display>
-            <name type="string">Arial-black.txf</name>
-			<size>7</size>
+            <name type="string">SANS_12B</name>
         </message-display>
 
         <screen>
-            <name type="string">Arial-black.txf</name>
-            <size type="float">13</size>
+            <name type="string">HELVETICA_14</name>
+            <size type="float">15</size>
         </screen>
 
         <stopwatch>
-            <name>Arial-black.txf</name>
+            <name>TIMES_24</name>
         </stopwatch>
     </fonts>
 
@@ -159,16 +158,16 @@
         </dial-misc>
 
         <hrule>
-            <red type="float">0</red>
-            <green type="float">0.3</green>
-            <blue type="float">1.0</blue>
+            <red type="float">1</red>
+            <green type="float">1</green>
+            <blue type="float">0</blue>
             <alpha type="float">1.0</alpha>
         </hrule>
 
         <vrule>
-            <red type="float">0</red>
-            <green type="float">0.3</green>
-            <blue type="float">1.0</blue>
+            <red type="float">1</red>
+            <green type="float">1</green>
+            <blue type="float">0</blue>
             <alpha type="float">1.0</alpha>
         </vrule>
 

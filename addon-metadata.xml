@@ -6,9 +6,9 @@
     <format-version type="int">1</format-version>
   </meta>
   <addon>
-    <identifier type="string">sp.ntx.AnotherGUI</identifier>
-    <name type="string">AnotherGUI</name>
-    <version type="string">1.0.1</version>
+    <identifier type="string">me.container32.AnotherGUIExtended</identifier>
+    <name type="string">AnotherGUIExtended</name>
+    <version type="string">1.0.2</version>
 
 
     <authors>
@@ -16,15 +16,19 @@
         <name type="string">SP-NTX</name>
         <url type="string">https://github.com/SP-NTX</url>
       </author>
+      <author>
+        <name type="string">container32</name>
+        <url type="string">https://github.com/container32</url>
+      </author>
     </authors>
 
 
     <short-description type="string">
-      This addon adds another GUI styles.
+      Adds another GUI styles to FG.
     </short-description>
 
     <long-description type="string">
-      This addon adds another GUI styles and button to change style.
+      A fork of SP-NTX's AnotherGUI, which adds another GUI styles and a dialog to change style.
     </long-description>
 
     <license>
@@ -48,15 +52,14 @@
     <urls>
 
       <code-repository type="string">
-        https://github.com/SP-NTX/AnotherGUI
+        https://github.com/container32/AnotherGUIExtended
       </code-repository>
     </urls>
 
     <tags>
       <tag type="string">GUI</tag>
-
+      <tag type="string">high DPI</tag>
     </tags>
-
    
   </addon>
 </PropertyList>

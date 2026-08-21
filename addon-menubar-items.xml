@@ -6,7 +6,7 @@
     </meta>
     <menubar-items>
         <menu>
-            <label>AnotherGUI</label>
+            <label>AnotherGUIExtended</label>
             <enabled type="bool">true</enabled>
             <item>
                 <label>Select GUI style</label>
@@ -20,9 +20,23 @@
                 <label>Reload</label>
                 <binding>
                     <command>addon-reload</command>
-                    <id>sp.ntx.AnotherGUI</id>
+                    <id>me.container32.AnotherGUIExtended</id>
                 </binding>
-            </item> 
+            </item>
+
+            <item>
+                <label>About</label>
+                <binding>
+                    <command>nasal</command>
+                    <script><![CDATA[
+                        canvas.MessageBox.information(
+                            "About",
+                            "AnotherGUIExtended addon v1.0.2 (container32/AnotherGUIExtended @ github)",
+                            buttons = canvas.MessageBox.Ok
+                        );
+                    ]]></script>
+                </binding>
+            </item>
             
         </menu>
     </menubar-items>

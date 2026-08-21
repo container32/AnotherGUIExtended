@@ -5,18 +5,16 @@
   <layout>vbox</layout>
 
   <text>
-    <label>Set GUI style</label>
+    <label>Select a GUI style</label>
   </text>
 
+  <hrule/>
+
   <group>
-    <layout>hbox</layout>
-    <halign>fill</halign>
-    <default-padding>10</default-padding>
-    <empty><stretch>true</stretch></empty>
+    <layout>vbox</layout>
 
     <button>
       <legend>Black Glass</legend>
-      <default>true</default>
       <equal>true</equal>
       <binding>
         <command>nasal</command>
@@ -30,7 +28,6 @@
 
     <button>
       <legend>Black Blue Glass</legend>
-      <default>true</default>
       <equal>true</equal>
       <binding>
         <command>nasal</command>
@@ -41,10 +38,8 @@
         <subsystem>gui</subsystem>
       </binding>
     </button>
-
     <button>
       <legend>Black Green Glass</legend>
-      <default>true</default>
       <equal>true</equal>
       <binding>
         <command>nasal</command>
@@ -55,10 +50,8 @@
         <subsystem>gui</subsystem>
       </binding>
     </button>
-
     <button>
       <legend>Black Orange Glass</legend>
-      <default>true</default>
       <equal>true</equal>
       <binding>
         <command>nasal</command>
@@ -69,10 +62,8 @@
         <subsystem>gui</subsystem>
       </binding>
     </button>
-	
     <button>
       <legend>Black Yellow Glass</legend>
-      <default>true</default>
       <equal>true</equal>
       <binding>
         <command>nasal</command>
@@ -84,10 +75,88 @@
       </binding>
     </button>
 
-    <empty><stretch>true</stretch></empty>
+    <hrule/>
 
     <button>
-      <legend>Default</legend>
+      <legend>Black Glass Large</legend>
+      <equal>true</equal>
+      <binding>
+        <command>nasal</command>
+        <script>setprop("/sim/gui/current-style", 202);</script>
+      </binding>
+      <binding>
+        <command>reinit</command>
+        <subsystem>gui</subsystem>
+      </binding>
+    </button>
+    <button>
+      <legend>Black Blue Glass Large</legend>
+      <equal>true</equal>
+      <binding>
+        <command>nasal</command>
+        <script>setprop("/sim/gui/current-style", 203);</script>
+      </binding>
+      <binding>
+        <command>reinit</command>
+        <subsystem>gui</subsystem>
+      </binding>
+    </button>
+    <button>
+      <legend>Black Yellow Glass Large</legend>
+      <equal>true</equal>
+      <binding>
+        <command>nasal</command>
+        <script>setprop("/sim/gui/current-style", 204);</script>
+      </binding>
+      <binding>
+        <command>reinit</command>
+        <subsystem>gui</subsystem>
+      </binding>
+    </button>
+    <button>
+      <legend>Silver Large</legend>
+      <equal>true</equal>
+      <binding>
+        <command>nasal</command>
+        <script>setprop("/sim/gui/current-style", 201);</script>
+      </binding>
+      <binding>
+        <command>reinit</command>
+        <subsystem>gui</subsystem>
+      </binding>
+    </button>
+
+    <hrule/>
+
+    <button>
+      <legend>Anthrax Large</legend>
+      <equal>true</equal>
+      <binding>
+        <command>nasal</command>
+        <script>setprop("/sim/gui/current-style", 200);</script>
+      </binding>
+      <binding>
+        <command>reinit</command>
+        <subsystem>gui</subsystem>
+      </binding>
+    </button>
+    <button>
+      <legend>Anthrax XLarge</legend>
+      <equal>true</equal>
+      <binding>
+        <command>nasal</command>
+        <script>setprop("/sim/gui/current-style", 300);</script>
+      </binding>
+      <binding>
+        <command>reinit</command>
+        <subsystem>gui</subsystem>
+      </binding>
+    </button>
+
+    <hrule/>
+
+    <button>
+      <legend>Anthrax (Default, Built-in)</legend>
       <equal>true</equal>
       <binding>
         <command>nasal</command>
@@ -98,17 +167,27 @@
         <subsystem>gui</subsystem>
       </binding>
     </button>
-
-    <empty><stretch>true</stretch></empty>
-
     <button>
-      <legend>Exit</legend>
+      <legend>Tortola (Built-in)</legend>
       <equal>true</equal>
-      <key>Esc</key>
       <binding>
-        <command>dialog-close</command>
+        <command>nasal</command>
+        <script>setprop("/sim/gui/current-style", 2);</script>
+      </binding>
+      <binding>
+        <command>reinit</command>
+        <subsystem>gui</subsystem>
       </binding>
     </button>
 
+    <hrule/>
   </group>
+
+  <button>
+    <legend>Close</legend>
+    <key>Esc</key>
+    <binding>
+      <command>dialog-close</command>
+    </binding>
+  </button>
 </PropertyList>
