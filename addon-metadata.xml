@@ -8,7 +8,7 @@
   <addon>
     <identifier type="string">me.container32.AnotherGUIExtended</identifier>
     <name type="string">AnotherGUIExtended</name>
-    <version type="string">1.0.2</version>
+    <version type="string">1.0.3</version>
 
 
     <authors>
