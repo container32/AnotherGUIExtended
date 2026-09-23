@@ -6,8 +6,8 @@
     <format-version type="int">1</format-version>
   </meta>
   <addon>
-    <identifier type="string">me.container32.AnotherGUIExtended</identifier>
-    <name type="string">AnotherGUIExtended</name>
+    <identifier type="string">sp.ntx.AnotherGUI</identifier>
+    <name type="string">AnotherGUI</name>
     <version type="string">1.0.3</version>
 
 
@@ -28,7 +28,7 @@
     </short-description>
 
     <long-description type="string">
-      A fork of SP-NTX's AnotherGUI, which adds another GUI styles and a dialog to change style.
+      An addon that adds another GUI styles to FG, including ones with enlarged fonts.
     </long-description>
 
     <license>
@@ -52,12 +52,13 @@
     <urls>
 
       <code-repository type="string">
-        https://github.com/container32/AnotherGUIExtended
+        https://github.com/SP-NTX/AnotherGUI
       </code-repository>
     </urls>
 
     <tags>
       <tag type="string">GUI</tag>
+      <tag type="string">style</tag>
       <tag type="string">high DPI</tag>
     </tags>
    
